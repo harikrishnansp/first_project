@@ -1,3 +1,8 @@
-qqq
-Haii this is my new project--- work 2
-
+class HelloMessage extends React.Component 
+ {
+render()
+  {
+return <div> Hello{this.props.name}</div>;
+  }
+}
+ReactDOM.render(<HelloMessage name="jane"/>,mountNode);
